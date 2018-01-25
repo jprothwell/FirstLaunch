@@ -1,0 +1,16 @@
+PODS:
+  - FirstLaunch (0.1.0)
+
+DEPENDENCIES:
+  - FirstLaunch (from `../`)
+
+EXTERNAL SOURCES:
+  FirstLaunch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FirstLaunch: fff005b349400d362298df8b696cf6009dbc090b
+
+PODFILE CHECKSUM: fbb492627991fd91ec9544eb9100fd662edb5c06
+
+COCOAPODS: 1.3.1

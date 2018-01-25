@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import <FirstLaunch/FirstLaunch.h>
 
 @interface LJAppDelegate : UIResponder <UIApplicationDelegate>
 

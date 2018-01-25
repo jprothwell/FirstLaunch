@@ -1,0 +1,6 @@
+framework module FirstLaunch {
+  umbrella header "FirstLaunch-umbrella.h"
+
+  export *
+  module * { export * }
+}

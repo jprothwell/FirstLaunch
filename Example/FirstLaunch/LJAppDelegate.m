@@ -12,7 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    if ([FirstLaunch isFirstLaunch]) {
+        NSLog(@"这是第一次登录");
+        [FirstLaunch saveFirstLaunch];
+    }
+    else{
+        NSLog(@"这不是第一次登录");
+    }
     return YES;
 }
 
