@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 awasome FirstLaunch!
                        DESC
 
-  s.homepage         = 'https://github.com/jprothwell@gmail.com/FirstLaunch'
+  s.homepage         = 'https://github.com/jprothwell/FirstLaunch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jprothwell@gmail.com' => 'jprothwell@gmail.com' }
-  s.source           = { :git => 'https://github.com/jprothwell@gmail.com/FirstLaunch.git', :tag => s.version.to_s }
+  s.author           = { 'jprothwell' => 'jprothwell' }
+  s.source           = { :git => 'https://github.com/jprothwell/FirstLaunch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
